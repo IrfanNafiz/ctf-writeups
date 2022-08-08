@@ -36,7 +36,7 @@ How do we extract out the information from the 'Info' field? Well, digging some 
 
 > tshark -r whacking-the-froggers.pcap -Y "http contains GET" -e _ws.col.Info -T fields > stripped.txt
 
-More information on this can be found in the tshark documentation if you're interested.
+More information on this can be found in the [tshark manual](https://www.wireshark.org/docs/man-pages/tshark.html) if you're interested.
 
 Now we have a file containing all the sweet sweet mouse coords. Yum. 
 
