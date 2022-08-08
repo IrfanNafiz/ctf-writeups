@@ -45,7 +45,7 @@ Now we have a file containing all the sweet sweet mouse coords. Yum.
 But we're still not done. We just need the x=*** y=*** coordinates. So we can do that by running a **python** or using **sed/gawk/grep**. I used **grep, tr and sed** by looking up different sites on how to use them to get all the coordinates in the format "-365 -10". 
 
 > cat stripped.txt | grep -oE '[0-9]+&y=[0-9]+' | tr -d '&y' > coords2.txt
-  This uses grep to get the numbers in this format '365&y=10' but that's not workable, so use tr alongside to delete the '&y' characters.
+This uses grep to get the numbers in this format '365&y=10' but that's not workable, so use tr alongside to delete the '&y' characters.
 
 Now our coords2.txt file contents looks like this:
 
