@@ -72,12 +72,14 @@ This is our output:
 
 <img width="494" alt="plot" src="https://user-images.githubusercontent.com/63298621/183505953-1b8ce1c8-6e74-4952-97da-a53e9ad491ca.png">
 
-Looks promising, and observing for a but tells us we need to mirror the graph, that can be done easily.
+Looks promising, and observing for a bit tells us we need to mirror the graph, that can be done easily.
 
 <img width="602" alt="flipped" src="https://user-images.githubusercontent.com/63298621/183507663-77ae3dd0-371f-4b6c-88ef-0329bd4ec1f6.png">
 
 Plot shows **LILYXOX**.
 
-SO according to the description we can conclude that the flag will be 'corctf{LILYXOX}'.
+According to the description "Make sure that anything you find is all typed in UPPERCASE and is wrapped like corctf{text}. Best of luck and enjoy whacking some frogs!" we can conclude that the flag will be 'corctf{LILYXOX}'.
 
 ### **flag :** corctf{LILYXOX}
+
+We did enjoy whacking some frogs CorCTF :)
