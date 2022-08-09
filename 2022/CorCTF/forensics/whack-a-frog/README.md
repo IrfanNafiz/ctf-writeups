@@ -10,7 +10,7 @@ First thought that came to mind when seeing the file name is that I have to use 
 
 Going to the website linked above, we're greeted with a nice 'frog-matrix' that we can... Hammer frogs into wells?... For some reason?... 
 <img width="1278" alt="SiteView" src="https://user-images.githubusercontent.com/63298621/183505965-f785ac5a-e57e-4f8f-ae4f-06f17837d86a.png">
-(Not asking questions of people's frustrations. So we will skip over that.)
+(Not asking questions. So we will skip over that.)
 
 Anyway the description also really sells the idea that we have to 'make out what he was sharing' possibly using the site shown. 
 If we inspect the site and check the Network tab we can see there was some kind of fetch operation whenever we move the mouse cursor on the site.
@@ -62,7 +62,7 @@ And add a '-' character to the beginning of each line.
 
 <img width="494" alt="coordsformatted" src="https://user-images.githubusercontent.com/63298621/183505937-a72fbbe6-fc41-4796-9f0f-831d73eef70a.png">
 
-Now my file is now looking all nice and sorted.
+Now my file is looking all nice and sorted.
 
 Now using **gluplot** to graph the coordinates should give us whatever was recorded of the mouse movement.
 
