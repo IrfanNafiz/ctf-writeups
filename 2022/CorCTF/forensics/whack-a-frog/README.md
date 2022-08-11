@@ -64,7 +64,7 @@ And add a '-' character to the beginning of each line.
 
 Now my file is looking all nice and sorted.
 
-Now using **gluplot** to graph the coordinates should give us whatever was recorded of the mouse movement.
+Now using **gnuplot** to graph the coordinates should give us whatever was recorded of the mouse movement.
 
 <img width="541" alt="commandstoformat" src="https://user-images.githubusercontent.com/63298621/183505930-0b538488-5fa2-4e56-8c2f-b07b567aa1c8.png">
 
