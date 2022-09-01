@@ -17,8 +17,8 @@ Playing around with the exposure and hue of the picture using an online GIMP edi
 <img width="404" alt="exposed" src="https://user-images.githubusercontent.com/63298621/187890663-daeb0c87-084f-41e2-b81f-bab97c3ff56a.png">
 
 Now some simple googling tells us these are "Machine Identification Codes" (MICs), which are printed by almost all printers.
-Some more digging leads up so this [site](https://mashable.com/article/printer-dots-nsa-leak) which tells us about NSA leaker getting caught using printer MICs. This correlates with our challenge description as well.
+Some more digging leads up so this [site](https://mashable.com/article/printer-dots-nsa-leak) which tells us about an NSA whistleblower getting caught using printer MICs. This correlates with our challenge description as well.
 
-Some further digging~
+Some further digging~work in progress
 
-### **flag :** maple{LILYXOX}
+### **flag :** maple{tw0_D3C4D35_0f_st3g0}
