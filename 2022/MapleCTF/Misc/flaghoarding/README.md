@@ -7,6 +7,15 @@ Damning internal communications within Maple Bacon have been leaked, revealing a
 Files: .png
 
 ## Solution
+First look at the png gives us no leads.
 
+Some basic stego analysis using binwalk, openstego and pngcheck also doesn't seem to produce any important leads.
 
-### **flag :** corctf{LILYXOX}
+Checking the image hex using HexD Editor shows us instances of the mention of PhotoShop and GIMP, so let's play around with those.
+
+Playing around with the exposure and hue of the picture using an online GIMP editor, we can see some strange dots in the sides of the image.
+<img width="404" alt="exposed" src="https://user-images.githubusercontent.com/63298621/187890663-daeb0c87-084f-41e2-b81f-bab97c3ff56a.png">
+
+Now some simple googlins tells us these are "Machine Identification Codes" (MICs), which are printed by almost all printers.
+
+### **flag :** maple{LILYXOX}
