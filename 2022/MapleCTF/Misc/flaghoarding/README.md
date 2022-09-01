@@ -16,6 +16,9 @@ Checking the image hex using HexD Editor shows us instances of the mention of Ph
 Playing around with the exposure and hue of the picture using an online GIMP editor, we can see some strange dots in the sides of the image.
 <img width="404" alt="exposed" src="https://user-images.githubusercontent.com/63298621/187890663-daeb0c87-084f-41e2-b81f-bab97c3ff56a.png">
 
-Now some simple googlins tells us these are "Machine Identification Codes" (MICs), which are printed by almost all printers.
+Now some simple googling tells us these are "Machine Identification Codes" (MICs), which are printed by almost all printers.
+Some more digging leads up so this [site](https://mashable.com/article/printer-dots-nsa-leak) which tells us about NSA leaker getting caught using printer MICs. This correlates with our challenge description as well.
+
+Some further digging~
 
 ### **flag :** maple{LILYXOX}
