@@ -4,12 +4,12 @@
 Author: apropos
 Damning internal communications within Maple Bacon have been leaked, revealing a plot to steal the flags of other teams at the upcoming International Flag Admirers' Conference. You've gotten a hold of the leaked files. Find information that could help uncover the identity of the whistleblower.
  
-Files: .png
+Files: LEAK_20220804_SCAN_1.jpeg
 
 ## Solution
-First look at the png gives us no leads.
+First look at the file gives us no leads.
 
-Some basic stego analysis using binwalk, openstego and pngcheck also doesn't seem to produce any important leads.
+Some basic stego analysis using binwalk, openstego and pngcheck also doesn't seem to produce any important leads. (Using the best stego tool ever - aperisolve)
 
 Checking the image hex using HexD Editor shows us instances of the mention of PhotoShop and GIMP, so let's play around with those.
 
@@ -19,6 +19,6 @@ Playing around with the exposure and hue of the picture using an online GIMP edi
 Now some simple googling tells us these are "Machine Identification Codes" (MICs), which are printed by almost all printers.
 Some more digging leads up so this [site](https://mashable.com/article/printer-dots-nsa-leak) which tells us about an NSA whistleblower getting caught using printer MICs. This correlates with our challenge description as well.
 
-Some further digging~work in progress
+Some further digging~~~work in progress~~~
 
 ### **flag :** maple{tw0_D3C4D35_0f_st3g0}
