@@ -7,6 +7,7 @@ with open(filename, 'r') as file:
 
 stringlist.sort()
 
+# testing, later overwritten
 charlist = ['t', 'o', 's', 'o']
 poslist = [11, 10, 5, 10]
 potentialflag = []
@@ -28,14 +29,14 @@ def guesser():
 
 
 from pwn import *  # pip install pwntools
-import json
+import json # not required
 
 r = remote('103.191.240.57', 9000, level = 'debug')
 
-def json_recv():
+def json_recv(): # dont mind the json naming :3
     return r.recvline()
 
-def json_send(hsh):
+def json_send(hsh): # dont mind the json naming :3
     r.sendline(hsh)
 
 for i in range(50):
@@ -48,15 +49,15 @@ for i in range(50):
 
     for i in range(4):
         received = json_recv()
-        s = chr(received[0])
-        num = int(received[4:6])
+        s = chr(received[0])        # debug
+        num = int(received[4:6])    # debug
         charlist.append(s)
         poslist.append(num)
 
     print(poslist)
     pt = guesser()
 
-    print("Decoded value: " + pt)
+    print("Decoded value: " + pt) # debug
 
     to_send = str(pt)
     json_send(to_send)
