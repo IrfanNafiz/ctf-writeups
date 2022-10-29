@@ -14,7 +14,7 @@ Description said that after guessing correctly 50 times the flag will be given.
 
 From this we are to understand that we have to find the string from the .txt file that has these characters in the given positions.
 
-Solving for one such string gives us a new set of 4 characters with positions. So we have to solve these for 50 times.
+Solving for one such string and sending to the port, gives us a new set of 4 characters with positions. So we have to solve these for 50 times.
 
 We have to make a recieve, send also from the port in python. And parse the recieved data such that we can use the char and position information and find the string from the txt file.
 
