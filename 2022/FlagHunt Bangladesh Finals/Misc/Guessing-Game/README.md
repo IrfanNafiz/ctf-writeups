@@ -2,12 +2,12 @@
 # Guessing Game
 
 You're given an ip:port, which gives the character and position of letters in a string.
-eg.
-s --- 4
-t --- 5
-u --- 10
-t --- 11
-
+eg. <br>
+s --- 4<br>
+t --- 5<br>
+u --- 10<br>
+t --- 11<br>
+<br>
 A string_list.txt is also given with multiple lines of string.
 
 Description said that after guessing correctly 50 times the flag will be given.
