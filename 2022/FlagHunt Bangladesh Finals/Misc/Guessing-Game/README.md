@@ -1,7 +1,7 @@
 
 # Guessing Game
 
-You're given an ip:port, which gives the character and position of letters in a string.
+You're given an ip:port, [103.191.240.57:9000] which gives the character and position of letters in a string.
 eg. <br>
 s --- 4<br>
 t --- 5<br>
